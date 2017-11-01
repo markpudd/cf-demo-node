@@ -7,6 +7,6 @@ applications:
   command: node app.js
   env:
     NODE_ENV: dev
-    REDIS_PROVIDER: none
-    REDIS_INSTANCE_NAME: none
+    REDIS_PROVIDER: rediscloud
+    REDIS_INSTANCE_NAME: demo_redis
     COLOUR: e44332
